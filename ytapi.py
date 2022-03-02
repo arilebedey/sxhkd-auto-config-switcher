@@ -7,7 +7,7 @@ from googleapiclient.discovery import build
 
 youtube = build('youtube', 'v3', developerKey=apikey)
 
-plid = "PLB9-ow4nx95_bSFbk7IY2VptrZjLWwQWq"  
+plid = ""  
 nextPageToken = None
 
 ytpls = youtube.playlistItems()
