@@ -1,7 +1,7 @@
 import json
 # https://googleapis.github.io/google-api-python-client/docs/dyn/youtube_v3.html
 
-apikey = 'AIzaSyCLnsHOODYAcyK041-Go3Onrdt-lr1t_Tc'
+apikey = ''
 
 from googleapiclient.discovery import build
 
