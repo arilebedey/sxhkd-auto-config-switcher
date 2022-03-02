@@ -1,2 +1,2 @@
 # pyscripts
-A showcase of some of my Python scripts running on my Linux laptop
+A showcase of some of written Python scripts running on my Linux laptop
