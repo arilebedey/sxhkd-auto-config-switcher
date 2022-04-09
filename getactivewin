@@ -1,0 +1,11 @@
+#!/bin/sh
+
+win=$(cat /proc/$(xdotool getwindowpid $(xdotool getwindowfocus))/comm)
+nopid='no pid associated with it'
+
+if [[ "$nopid" == *"$win"* ]]
+then
+    echo "kitty"
+else
+    echo "$win"
+fi
