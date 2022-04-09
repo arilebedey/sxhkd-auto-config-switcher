@@ -1,5 +1,5 @@
 # sxhkd-autoswitcher
-This description:
+The description:
 
 1. A SXHKD swithcher script that switches between 3 sxhkd binding configurations with specific hotkeys (MainSwitcher.py)
 2. An automatic keybindings switcher that can be paused that relies on MainSwitcher.py (chsx.py)
