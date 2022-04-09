@@ -1,11 +1,11 @@
 # sxhkd-autoswitcher
-The description:
+The contents:
 
-1. A SXHKD swithcher script that switches between 3 sxhkd binding configurations with specific hotkeys (MainSwitcher.py)
+1. A SXHKD swithcher script that switches between 3 sxhkd keybinding configurations (MainSwitcher.py) (keybinding configs not included)
 2. An automatic keybindings switcher that can be paused that relies on MainSwitcher.py (AutoChSX.py)
 3. A script that adds keybindins to one the three configurations (addLineToSxhkd.py)
-4. Helper python and bash scripts (the rest) 
+4. Helper python and bash scripts (/helpers) 
 
-The talk about AutoChSX.py:
+Brief description:
 
-To avoid manually switching between sxhkd configurations with (MainSwitcher.py) and a dedicated hotkey (which was semicolon in my case), I wrote an additional script (AutoChSX.py) that automacally switches to the terminal sxhkd config (referred to as sx0/sx_0) when in the terminal window, and switches back to the web browsing config (sx1/sx_1) when in other apps.
+I first wrote MainSwitcher.py which allowed me to switch between sxhkd configurations with a dedicated hotkey (which was semicolon in my case), but I realized that it should also be automated, so I wrote AutoChSX.py that automacally switches the configs based on the window that is currently in focus
