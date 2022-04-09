@@ -1,0 +1,5 @@
+#!/bin/dash
+
+nohup python3 /home/ari/Scripts/chsx.py > ~/.nohup/chsx_NH.out &
+
+
