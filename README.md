@@ -1,7 +1,7 @@
 # sxhkd-autoswitcher
 The contents:
 
-1. A SXHKD swithcher script that switches between 3 sxhkd keybinding configurations (MainSwitcher.py) (keybinding configs not included)
+1. A SXHKD swithcher script that can switche between 3 sxhkd keybinding configurations (MainSwitcher.py) (keybinding configs not included)
 2. An automatic keybindings switcher that can be paused that relies on MainSwitcher.py (AutoChSX.py)
 3. A script that adds keybindins to one the three configurations (addLineToSxhkd.py)
 4. Helper python and bash scripts (/helpers) 
