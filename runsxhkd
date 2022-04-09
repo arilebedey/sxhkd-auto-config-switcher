@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ionice -c 3 nice sxhkd &
