@@ -18,13 +18,8 @@ def GetPause():
         return(pause)
 
 resetpause = "python3 /home/ari/Scripts/sx_undopause.py"
-removepausemark = "rm /home/ari/.toggle/toggle_pause"
 
 os.system(resetpause)
-try:
-    os.system(removepausemark)
-except Exception:
-    pass
 
 tokitty = 'ionice -c 3 nice xdotool keydown control keydown alt key b; ionice -c 3 nice sleep 0.03; ionice -c 3 nice xdotool keyup control keyup alt'
 tosx = 'ionice -c 3 nice xdotool keydown control keydown alt key c; ionice -c 3 nice sleep 0.03; ionice -c 3 nice xdotool keyup control keyup alt'
