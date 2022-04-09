@@ -6,6 +6,6 @@ This description:
 3. A script that adds keybindins to one the three configurations (addLineToSxhkd.py)
 4. Helper python and bash scripts (the rest) 
 
-The talk:
+The talk about chsx.py:
 
 To avoid manually switching between sxhkd configurations with (MainSwitcher.py) and a dedicated hotkey (which was semicolon in my case), I wrote an additional script (chsx.py) that automacally switches to the terminal sxhkd config (referred to as sx0/sx_0) when in the terminal window, and switches back to the web browsing config (sx1/sx_1) when in other apps.
