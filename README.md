@@ -1,4 +1,4 @@
-# pyscripts
+# sxhkd-autoswitcher
 This description:
 
 1. A SXHKD swithcher script that switches between 3 sxhkd binding configurations with specific hotkeys (MainSwitcher.py)
