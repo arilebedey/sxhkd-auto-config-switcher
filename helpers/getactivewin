@@ -5,7 +5,7 @@ nopid='no pid associated with it'
 
 if [[ "$nopid" == *"$win"* ]]
 then
-    # Treat empty no window in dwn as terminal window
+    # Replace empty window log with terminal "kitty" window string
     echo "kitty"
 else
     echo "$win"
