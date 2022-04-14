@@ -6,7 +6,7 @@ def GetWin():
     output = check_output(['getactivewin'], stderr=DEVNULL, stdin=DEVNULL).decode("utf-8").rstrip('\n')
     return(output)
 
-# Retrieve current sxhkd configuration
+# Retrieve currently active sxhkd configuration 
 def GetSx():
     with open(r'/home/ari/.sx/status.txt', 'r') as fr:
         fl = fr.readline()
