@@ -35,7 +35,6 @@ while True:
     win = GetWin()
     status = GetSx()
     pause = GetPause()
-    # only run on window change
     if win == "kitty" and win != lastwin and status != "sx0":
         os.system(tokitty)
         time.sleep(0.3)
