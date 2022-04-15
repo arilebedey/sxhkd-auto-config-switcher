@@ -43,6 +43,7 @@ map2 = 'map2 -d /home/ari/.map2/devices.list /home/ari/.map2/map.m2'
 global lastwin
 lastwin = GetWin()
 # Apps that require sx0 configuration
+## Script with change to sx1 configuration in all other windows
 sx0 = ["kitty", "mpv"]
 
 while True:
