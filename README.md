@@ -1,7 +1,7 @@
 # sxhkd-autoswitcher
 ## Brief description:
 
-### I first wrote MainSwitcher.py which allowed me to switch between sxhkd configurations with a dedicated hotkey (which was semicolon in my case), but I realized that the switching should mostly be automatic, so I wrote AutoChSX.py. It automatically switches between my two main sxhkd configurations based on the window that is currently in focus (and it can also be paused by excecuting the /helpers/togglepause bash script)
+I first wrote MainSwitcher.py which allowed me to switch between sxhkd configurations with a dedicated hotkey (which was semicolon in my case), but I realized that the switching should mostly be automatic, so I wrote AutoChSX.py. It automatically switches between my two main sxhkd configurations based on the window that is currently in focus (and it can also be paused by excecuting the /helpers/togglepause bash script)
 
 ## The contents:
 
