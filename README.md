@@ -10,6 +10,6 @@ This script will automatically switch between properly written sxhkd configs bas
 ## The contents:
 
 1. An automatic sxhkd configuration switcher that can currently switch between 2 sxhkd configurations, potentially much more.
-2. A script that adds keybindins to one the three configurations (addLineToSxhkd.py)
+2. A bonus script that adds keybindings to one the three configurations (addLineToSxhkd.py)
 3. Helper python and bash scripts needed to run the script (/helpers)
 
