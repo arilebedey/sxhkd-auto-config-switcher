@@ -1,7 +1,11 @@
 # sxhkd-autoswitcher
 ## Brief description:
 
-I first wrote MainSwitcher.py which allowed me to switch between sxhkd configurations with a dedicated hotkey (which was semicolon in my case), but I realized that the switching should mostly be automatic, so I wrote AutoChSX.py. It automatically switches between my two main sxhkd configurations based on the window that is currently in focus (and it can also be paused by excecuting the /helpers/togglepause bash script)
+First I wrote code (now in arilebedey/sxhkd-config-switcher) that allowed me to switch between sxhkd configurations with a dedicated hotkey, until I realized that the switching should mostly be automatic, then updated it.
+
+This script automatically switches between my two main sxhkd configurations: my terminal configuration, and my browsing one.
+
+This script will automatically switch between properly written sxhkd configs based on the window that is currently in focus, and can also toggle the terminal configuration outside of the terminal (mainly useful in the browser) by quickly excecuting the /helpers/togglepause bash script, set to alt + space, in my case).
 
 ## The contents:
 
