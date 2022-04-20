@@ -1,7 +1,7 @@
 # sxhkd-autoswitcher
 ## Brief description:
 
-First I wrote code (now in arilebedey/sxhkd-config-switcher) that allowed me to switch between sxhkd configurations with a dedicated hotkey, until I realized that the switching should mostly be automatic, then updated it.
+First I wrote a script (now in arilebedey/sxhkd-config-switcher) that allowed me to switch between sxhkd configurations with a dedicated hotkey, until I realized that the switching should mostly be automatic, then updated it.
 
 This script automatically switches between my two main sxhkd configurations: my terminal configuration, and my browsing one.
 
