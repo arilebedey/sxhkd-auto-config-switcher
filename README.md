@@ -7,7 +7,7 @@ This script automatically switches between my two main sxhkd configurations: my 
 
 This script will automatically switch between properly written sxhkd configs based on the window that is currently in focus, and can also toggle the terminal configuration outside of the terminal (mainly useful in the browser) by quickly excecuting the /helpers/togglepause bash script, set to alt + space, in my case).
 
-## The contents:
+## Contents:
 
 1. An automatic sxhkd configuration switcher that can currently switch between 2 sxhkd configurations, potentially much more.
 2. A bonus script that adds keybindings to one the three configurations (addLineToSxhkd.py)
