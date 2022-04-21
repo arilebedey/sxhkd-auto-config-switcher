@@ -145,7 +145,7 @@ UndoPause()
 map2 = 'map2 -d /home/ari/.map2/devices.list /home/ari/.map2/map.m2'
 
 # Apps that require sx0 configuration
-sx0 = ["kitty", "mpv"]
+sx0 = ["kitty", "mpv", "zathura"]
 ## Script will change to sx1 configuration when all other windows are focused
 
 ##### MAIN LOOP #####
