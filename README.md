@@ -19,7 +19,7 @@ Be carful when this tweaking script and always have fresh backups of your sxhkd 
 
 ## CPU Usage:
 
-0.1-0.3% on my intel i5-6300u.
+0.1-0.3% on an intel i5-6300u.
 
 ## Bugs:
 
